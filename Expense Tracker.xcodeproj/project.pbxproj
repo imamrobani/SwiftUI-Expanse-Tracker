@@ -11,6 +11,11 @@
 		CEAC717C2B31083B005EB54A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC717B2B31083B005EB54A /* ContentView.swift */; };
 		CEAC717E2B31083C005EB54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAC717D2B31083C005EB54A /* Assets.xcassets */; };
 		CEAC71812B31083C005EB54A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAC71802B31083C005EB54A /* Preview Assets.xcassets */; };
+		CEAC718A2B311C95005EB54A /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC71892B311C95005EB54A /* IntroScreen.swift */; };
+		CEAC718D2B311D9C005EB54A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC718C2B311D9C005EB54A /* Constants.swift */; };
+		CEAC718F2B3120B2005EB54A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC718E2B3120B2005EB54A /* Tab.swift */; };
+		CEAC71912B312422005EB54A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC71902B312422005EB54A /* Category.swift */; };
+		CEAC71932B31245C005EB54A /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC71922B31245C005EB54A /* Transactions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		CEAC717B2B31083B005EB54A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEAC717D2B31083C005EB54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAC71802B31083C005EB54A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEAC71892B311C95005EB54A /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		CEAC718C2B311D9C005EB54A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CEAC718E2B3120B2005EB54A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		CEAC71902B312422005EB54A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CEAC71922B31245C005EB54A /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,9 @@
 		CEAC71782B31083B005EB54A /* Expense Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				CEAC718B2B311D7A005EB54A /* Helpers */,
+				CEAC71882B3108D6005EB54A /* Model */,
+				CEAC71872B3108D0005EB54A /* View */,
 				CEAC71792B31083B005EB54A /* Expense_TrackerApp.swift */,
 				CEAC717B2B31083B005EB54A /* ContentView.swift */,
 				CEAC717D2B31083C005EB54A /* Assets.xcassets */,
@@ -65,6 +78,32 @@
 				CEAC71802B31083C005EB54A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEAC71872B3108D0005EB54A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC71892B311C95005EB54A /* IntroScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEAC71882B3108D6005EB54A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC718E2B3120B2005EB54A /* Tab.swift */,
+				CEAC71902B312422005EB54A /* Category.swift */,
+				CEAC71922B31245C005EB54A /* Transactions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEAC718B2B311D7A005EB54A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC718C2B311D9C005EB54A /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +177,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAC717C2B31083B005EB54A /* ContentView.swift in Sources */,
+				CEAC718A2B311C95005EB54A /* IntroScreen.swift in Sources */,
+				CEAC71932B31245C005EB54A /* Transactions.swift in Sources */,
+				CEAC718F2B3120B2005EB54A /* Tab.swift in Sources */,
 				CEAC717A2B31083B005EB54A /* Expense_TrackerApp.swift in Sources */,
+				CEAC718D2B311D9C005EB54A /* Constants.swift in Sources */,
+				CEAC71912B312422005EB54A /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
