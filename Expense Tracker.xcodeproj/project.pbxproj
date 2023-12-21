@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE18B5912B32864C00EC428C /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B5902B32864C00EC428C /* TransactionCardView.swift */; };
 		CE4985812B31D314001CA5F5 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4985802B31D314001CA5F5 /* TintColor.swift */; };
+		CEA25E342B33B16600A104BA /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA25E332B33B16600A104BA /* LockView.swift */; };
 		CEAC717A2B31083B005EB54A /* Expense_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC71792B31083B005EB54A /* Expense_TrackerApp.swift */; };
 		CEAC717C2B31083B005EB54A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC717B2B31083B005EB54A /* ContentView.swift */; };
 		CEAC717E2B31083C005EB54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAC717D2B31083C005EB54A /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		CE18B5902B32864C00EC428C /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
 		CE4985802B31D314001CA5F5 /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
+		CEA25E332B33B16600A104BA /* LockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 		CEAC71762B31083B005EB54A /* Expense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAC71792B31083B005EB54A /* Expense_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerApp.swift; sourceTree = "<group>"; };
 		CEAC717B2B31083B005EB54A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		CECA08062B31E77E00FA1ADD /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				CEA25E332B33B16600A104BA /* LockView.swift */,
 				CEB09D492B332A0E0004B2AC /* SwipeAction.swift */,
 				CECA08072B31E78B00FA1ADD /* CardView.swift */,
 				CE18B5902B32864C00EC428C /* TransactionCardView.swift */,
@@ -239,6 +242,7 @@
 				CEAC71932B31245C005EB54A /* Transactions.swift in Sources */,
 				CEAC718F2B3120B2005EB54A /* Tab.swift in Sources */,
 				CEAC717A2B31083B005EB54A /* Expense_TrackerApp.swift in Sources */,
+				CEA25E342B33B16600A104BA /* LockView.swift in Sources */,
 				CEAC718D2B311D9C005EB54A /* Constants.swift in Sources */,
 				CECA08032B31DA6600FA1ADD /* View+Ext.swift in Sources */,
 				CEAC71912B312422005EB54A /* Category.swift in Sources */,
@@ -379,6 +383,7 @@
 				DEVELOPMENT_TEAM = 3Z22XRRSB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = DESCRIPTION;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -408,6 +413,7 @@
 				DEVELOPMENT_TEAM = 3Z22XRRSB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = DESCRIPTION;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
