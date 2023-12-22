@@ -19,6 +19,7 @@
 		CEAC718F2B3120B2005EB54A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC718E2B3120B2005EB54A /* Tab.swift */; };
 		CEAC71912B312422005EB54A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC71902B312422005EB54A /* Category.swift */; };
 		CEAC71932B31245C005EB54A /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC71922B31245C005EB54A /* Transactions.swift */; };
+		CEAC7ACA2B35356300C22E97 /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC7AC92B35356300C22E97 /* NewExpenseView.swift */; };
 		CEB09D4A2B332A0E0004B2AC /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB09D492B332A0E0004B2AC /* SwipeAction.swift */; };
 		CEB09D4C2B332D7E0004B2AC /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB09D4B2B332D7E0004B2AC /* DateFilterView.swift */; };
 		CECA07FB2B31D87000FA1ADD /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA07FA2B31D87000FA1ADD /* Recents.swift */; };
@@ -44,6 +45,7 @@
 		CEAC718E2B3120B2005EB54A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		CEAC71902B312422005EB54A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		CEAC71922B31245C005EB54A /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		CEAC7AC92B35356300C22E97 /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
 		CEB09D492B332A0E0004B2AC /* SwipeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		CEB09D4B2B332D7E0004B2AC /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
 		CECA07FA2B31D87000FA1ADD /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				CECA08062B31E77E00FA1ADD /* Helpers */,
 				CECA07F92B31D86100FA1ADD /* TabViews */,
 				CEAC71892B311C95005EB54A /* IntroScreen.swift */,
+				CEAC7AC92B35356300C22E97 /* NewExpenseView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				CECA08082B31E78B00FA1ADD /* CardView.swift in Sources */,
 				CEB09D4A2B332A0E0004B2AC /* SwipeAction.swift in Sources */,
 				CEAC717C2B31083B005EB54A /* ContentView.swift in Sources */,
+				CEAC7ACA2B35356300C22E97 /* NewExpenseView.swift in Sources */,
 				CECA08052B31E36000FA1ADD /* Date+Ext.swift in Sources */,
 				CEAC718A2B311C95005EB54A /* IntroScreen.swift in Sources */,
 				CECA07FD2B31D89700FA1ADD /* Settings.swift in Sources */,
